@@ -1,0 +1,12 @@
+{
+  "name": "ai-only-company-os-root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Root workspace proxy for Cloud Agent Operations Center",
+  "scripts": {
+    "dev": "npm run dev --prefix ai-company-dashboard",
+    "build": "npm run build --prefix ai-company-dashboard",
+    "preview": "npm run preview --prefix ai-company-dashboard",
+    "install:all": "npm install --prefix ai-company-dashboard"
+  }
+}
